@@ -1,0 +1,64 @@
+// $cat-btn =  '.cat-btn';
+.cat-btn
+  margin 20px
+  cursor pointer
+  height 32px
+  background #fff
+  border 1px solid transparent
+  border-color #dcdee2
+  outline none
+  border-radius 4px
+  color #515a6e
+  padding 0 15px
+  &-text
+    border-color transparent
+    &:hover
+      color #2b85e4
+      transition color .2s linear,background-color .2s linear,border .2s linear,box-shadow .2s linear;
+    &:active
+      color #2b85e4
+    &:focus
+      box-shadow 0 0 0 2px rgba(45,140,240,.2)
+  &-default
+    &:hover
+      border-color #2d8cf0
+      background-color #fff
+      color #2d8cf0
+      transition color .2s linear,background-color .2s linear,border .2s linear,box-shadow .2s linear;
+    &:active
+      color #2b85e4
+      background-color #fff
+      border-color #2b85e4
+    &:focus
+      box-shadow 0 0 0 2px rgba(45,140,240,.2)
+  &-primary
+    background #2d8cf0
+    color #ffffff
+    border-color #2d8cf0
+    &:hover
+      background-color #2b85e4
+      border-color #2d8cf0
+      color #ffffff
+      transition color .2s linear,background-color .2s linear,border .2s linear,box-shadow .2s linear;
+    &:active
+      color #2b85e4
+      background-color #2b85e4
+      border-color #2b85e4
+    &:focus
+      box-shadow 0 0 0 2px rgba(45,140,240,.2)
+  &-error
+    background red
+    color #ffffff
+    border-color #ed4014
+    &:hover
+      background-color #ed4014
+      border-color #ed4014
+      color #ffffff
+      transition color .2s linear,background-color .2s linear,border .2s linear,box-shadow .2s linear;
+    &:active
+      border-color #ed4014
+      background-color #ed4014
+      color #ffffff
+    &:focus
+      box-shadow: 0 0 0 2px rgba(237,64,20,.2);
+  
